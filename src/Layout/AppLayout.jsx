@@ -5,8 +5,10 @@ import Navbar from "../components/Navbar/Navbar";
 const AppLayout = () => {
   return (
     <>
-      <Navbar />
-      <Outlet />
+      <main className="bg-slate-300/20 h-full">
+        <Navbar />
+        <Outlet />
+      </main>
     </>
   );
 };
